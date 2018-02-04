@@ -15,10 +15,11 @@ ctx.font = "50px Indie Flower";
 ctx.fillStyle = 'white';
 
 ctx.fillText("Developer - Geek - Programming Enthusiast",c.width/8,2*height);
-ctx.fillStyle = 'black';
+
 
 function mouse_moved(e){
     ctx.clearRect(0, 0, c.width, 200);
+    ctx.fillStyle = 'black';
     var mp = getMousePos(e,c);
     var x = mp.x,y = mp.y;
     
