@@ -1,0 +1,13 @@
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #18BC9C;
+}
+.navbar{
+    background-color: #2C3E50;
+    font-family: Lato;
+    
+}
