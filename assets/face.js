@@ -11,8 +11,9 @@ var font="Lato"
 ctx.lineWidth=10;
 ctx.strokeStyle = '#B8DC38';
 
+
 function mouse_moved(e){
-    ctx.clearRect(0, 0, c.width, 200);
+    ctx.clearRect(0, 0, c.width, c.height);
     ctx.fillStyle = 'black';
     var mp = getMousePos(e,c);
     var x = mp.x,y = mp.y;
@@ -44,6 +45,14 @@ function mouse_moved(e){
 }
 
 function drawEye(ecx,ecy,x,y){
+    
+    if(x==0 && y==0){
+        ctx.beginPath();
+        ctx.arc(ecx, ecy, er/3, 0, 2 * Math.PI);
+        ctx.stroke();
+        return;
+    }
+    
     var theta = calTheta(ecx,ecy,x,y);
     var Xm = 1, Ym = 1;
     if ((y < ecy && x > ecx) || (y > ecy && x > ecx)) {
