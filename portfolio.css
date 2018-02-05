@@ -1,10 +1,13 @@
+body{
+    background-color: #06181F;
+}
 canvas {
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: #2ec866;
+    background-color: #06181F;
 }
 .navbar{
     background-color: #39424e;
@@ -17,4 +20,24 @@ canvas {
 #heading{
     font-size: 20px;
     color: #2ec866;
+}
+.portfolio{
+    background-color: #6E851A;
+    color: #06181F;
+}
+.about{
+    padding: 10px;
+    background-color: #B8DC38;
+}
+.contact{
+    background-color: #1F4A5B;
+    padding: 10px;
+    color: #B8DC38;
+}
+.code{
+    padding-left: 20%;
+    width: 80%;
+}
+.about-code{
+    
 }

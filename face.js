@@ -9,7 +9,7 @@ var er=30;
 var font="Lato"
 
 ctx.lineWidth=10;
-
+ctx.strokeStyle = '#B8DC38';
 
 function mouse_moved(e){
     ctx.clearRect(0, 0, c.width, 200);
@@ -19,7 +19,7 @@ function mouse_moved(e){
     
     drawEye(e1cx,e1cy,x,y);
     drawEye(e2cx,e2cy,x,y);
-    
+    ctx.fillStyle = '#B8DC38';
     ctx.font = "300px "+font;
     ctx.fillText("<",c.width/2-300,height/2+150);
     ctx.fillText(">",c.width/2+130,height/2+150);
@@ -38,7 +38,6 @@ function mouse_moved(e){
     ctx.arc(e2cx, e2cy, er, 0, 2 * Math.PI);
     ctx.stroke();
     ctx.font = "50px Indie Flower";
-    ctx.fillStyle = 'white';
     ctx.fillText("Developer - Geek - Programming Enthusiast",c.width/8,2*height);
 
     

@@ -1,0 +1,21 @@
+<about-me>
+    <name>Nikunj Kumar Gupta</name>
+    <tags>
+        coder, geek
+    </tags>
+    <career-objective>To become a Software Developer and contribute in making new Softwares.</career-objective>
+    
+    <hobby>
+        <item>Competitive Programming</item>
+        <item>Table Tennis</item>
+        <item>Badminton</item>
+        <item>Movies</item>
+    </hobby>
+    
+    <fav>
+        <movie>Rush Hour</movie>
+        <song>All time low - Jon Billion</song>
+        <sport>Badminton</sport>
+    </fav>
+    
+</about-me>
