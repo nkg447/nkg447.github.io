@@ -9,7 +9,6 @@ var er=30;
 var font="Lato"
 
 ctx.lineWidth=10;
-//ctx.strokeStyle = 'white';
 
 
 function mouse_moved(e){

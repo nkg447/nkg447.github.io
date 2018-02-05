@@ -4,10 +4,17 @@ canvas {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: #18BC9C;
+    background-color: #2ec866;
 }
 .navbar{
-    background-color: #2C3E50;
+    background-color: #39424e;
     font-family: Lato;
     
+}
+.fab{
+    color: black;
+}
+#heading{
+    font-size: 20px;
+    color: #2ec866;
 }
