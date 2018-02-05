@@ -11,11 +11,6 @@ var font="Lato"
 ctx.lineWidth=10;
 //ctx.strokeStyle = 'white';
 
-ctx.font = "50px Indie Flower";
-ctx.fillStyle = 'white';
-
-ctx.fillText("Developer - Geek - Programming Enthusiast",c.width/8,2*height);
-
 
 function mouse_moved(e){
     ctx.clearRect(0, 0, c.width, 200);
@@ -43,6 +38,10 @@ function mouse_moved(e){
     ctx.beginPath();
     ctx.arc(e2cx, e2cy, er, 0, 2 * Math.PI);
     ctx.stroke();
+    ctx.font = "50px Indie Flower";
+    ctx.fillStyle = 'white';
+    ctx.fillText("Developer - Geek - Programming Enthusiast",c.width/8,2*height);
+
     
 }
 
