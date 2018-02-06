@@ -85,8 +85,8 @@ function getPointWRTy(py,theta,d,Xm,Ym){
     return py-Ym*d*Math.sin(theta);
 }
 
-const getMousePos = (evt, canvas) => {
-  const rect = canvas.getBoundingClientRect();
+function getMousePos(evt, canvas){
+  var rect = canvas.getBoundingClientRect();
   return {
     y: evt.clientY - rect.top,
     x: evt.clientX - rect.left
