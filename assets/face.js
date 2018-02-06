@@ -90,5 +90,5 @@ const getMousePos = (evt, canvas) => {
   return {
     y: evt.clientY - rect.top,
     x: evt.clientX - rect.left
-  }
+}
 }
