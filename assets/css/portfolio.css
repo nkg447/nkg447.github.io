@@ -2,15 +2,9 @@ body{
     background-color: #06181F;
 }
 canvas {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: #06181F;
-    width: 100%;
-    height: auto;
-
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 .navbar{
     background-color: #39424e;
@@ -62,4 +56,10 @@ canvas {
     padding: 20px;
     text-align: right;
     
+}
+
+h1{
+    font-family: Indie Flower;
+    text-align: center;
+    color: #B8DC38;
 }
