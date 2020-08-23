@@ -1,165 +1,281 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
-      <meta name="viewport" content="width=device-width"/>
-      <title>Nikunj Gupta | Portfolio</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-      <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
-      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   </head>
-   <body onmousemove="mouse_moved(event)" onload="mouse_moved(event)">
-      <!--	FIXED NAVBAR-->
-      <nav class="navbar fixed-top text-uppercase">
-         <div class="container-fluid">
-            <div class="navbar-header">
-               <a style="color: white;" class="navbar-brand" href="#top">Nikunj Kumar Gupta</a>
-               <a style="color: white; float: right; font-size: 30px; padding: 10px 10px;" class="hidden-lg hidden-md hidden-sm glyphicon glyphicon-menu-hamburger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"></a>
-            </div>
-            <div class="collapse" id="collapseExample">
-               <ul class=" hidden-lg hidden-md hidden-sm nav navbar-nav navbar-right">
-                  <li><a style="color: white;" class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-                  <li><a style="color: white;" class="nav-link" href="#about">About</a></li>
-                  <li><a style="color: white;" class="nav-link" href="#contact">Contact</a></li>
-               </ul>
-            </div>
-            <ul class="visible-lg visible-md visible-sm nav navbar-nav navbar-right">
-               <li><a style="color: white;" class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-               <li><a style="color: white;" class="nav-link" href="#about">About</a></li>
-               <li><a style="color: white;" class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-         </div>
-      </nav>
-      <div style="align-content: center">
-         <canvas id="myCanvas" width="1200" height="400">Your browser does not support the HTML5 canvas tag.</canvas>
-         <script src="assets/js/face.js"></script>
-         <h1><strong>Developer - Geek - Programming Enthusiast</strong></h1>
+  <head>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <title>Nikunj Gupta | README</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+          Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #24292e;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .card-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .card {
+        padding: 16px !important;
+        margin: 16px !important;
+        display: flex !important;
+        width: 30%;
+        background-color: #fff;
+        border: 1px solid #e1e4e8;
+        border-radius: 6px;
+        text-align: -webkit-match-parent;
+        flex-direction: column;
+      }
+      .card-title {
+        color: #2f80ed;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      #dp {
+        width: 6em;
+        height: 6em;
+        /* position: absolute; */
+        border-radius: 100%;
+        margin-right: 16px;
+      }
+      @media only screen and (max-width: 600px) {
+        .card{
+         width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <img id="dp" src="./assets/croped-dp.jpg" />
+      <div align="center">
+        <h1 align="center">Hi 👋, I'm Nikunj Kumar Gupta</h1>
+        <h3 align="center">
+          Developer 👨‍💻 | Geek 🤓 | Programming Enthusiast 🤷‍♂
+        </h3>
       </div>
-      <hr>
-      <!--    PORTFOLIO-->
-      <div class="portfolio container-fluid" id="portfolio">
-         <h2 style="text-align: center; font-family: Indie Flower;"><strong>PORTFOLIO</strong><small style="color: #06181F"><strong> My Recent works</strong></small></h2>
-         <br>
-         <div class="row">
-            <div class="col-md-6">
-               <div class="panel panel-default">
-                  <div class="panel-heading" id="heading">
-                     DFA(Deterministic Finite Automata) Minimizer
-                  </div>
-                  <div class="panel-body">
-                     <strong>A Java Program that take input a DFA and output a graphical representation of that DFA in both original and minimized state. </strong><br>
-                     <span class="label label-default">JAVA</span>
-                     <span class="label label-default">DFA</span>
-                     <span class="label label-default">AWT</span>
-                  </div>
-                  <div class="panel-footer" style="font-size:1.2em;">
-                     <a href="https://github.com/nkg447/DFA-Minimizer" style="color: black; padding-right: 10px;">
-                     <i class="fab fa-github"></i>
-                     </a>
-                     <a style="cursor: not-allowed;" class="glyphicon glyphicon-download-alt"></a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-6">
-               <div class="panel panel-default">
-                  <div class="panel-heading" id="heading">
-                     Alfred
-                  </div>
-                  <div class="panel-body">
-                     <strong>A Command Line Tool for competitive programmers to run there code against known test cases.</strong><br>
-                     <span class="label label-default">JAVA</span>
-                     <span class="label label-default">Command Line</span>
-                  </div>
-                  <div class="panel-footer" style="font-size:1.2em;">
-                     <a href="https://github.com/nkg447/Alfred" style="color: black; padding-right: 10px;">
-                     <i class="fab fa-github"></i>
-                     </a>
-                     <a style="cursor: not-allowed;" class="glyphicon glyphicon-download-alt"></a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-6">
-               <div class="panel panel-default">
-                  <div class="panel-heading" id="heading">
-                     Entropy Based Password Generator
-                  </div>
-                  <div class="panel-body">
-                     <strong>An Entropy based password generator to get complex passwords.</strong><br>
-                     <span class="label label-default">C</span>
-                  </div>
-                  <div class="panel-footer" style="font-size:1.2em;">
-                     <a href="https://github.com/nkg447/Entropy-based-password-generator" style="color: black; padding-right: 10px;">
-                     <i class="fab fa-github"></i>
-                     </a>
-                     <a style="cursor: not-allowed;" class="glyphicon glyphicon-download-alt"></a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-6">
-               <div class="panel panel-default">
-                  <div class="panel-heading" id="heading">
-                     File Explorer
-                  </div>
-                  <div class="panel-body">
-                     <strong>A File Explorer for windows which uses java JFrames.</strong><br>
-                     <span class="label label-default">JAVA</span>
-                     <span class="label label-default">javax.swing</span>
-                  </div>
-                  <div class="panel-footer" style="font-size:1.2em;">
-                     <a href="https://github.com/nkg447/File-Explorer" style="color: black; padding-right: 10px;">
-                     <i class="fab fa-github"></i>
-                     </a>
-                     <a style="cursor: not-allowed;" class="glyphicon glyphicon-download-alt"></a>
-                  </div>
-               </div>
-            </div>
-         </div>
-          
-          <div class="container" style="text-align: center; font-family: Indie Flower;">
-              <h3>---&gt; <a style="color: #06181F" href="assets/resume/Nikunj%20Kumar%20Gupta%20-%20Resume.pdf">My Resume</a> &lt;----</h3>
-          </div>
-          
+    </div>
+
+    <br />- 📃
+    <a href="./assets/Nikunj Kumar Gupta - Resume.pdf"
+      ><strong>My Resume</strong></a
+    >
+    <br />- 🌱 I’m currently learning <strong>devops stuff</strong> <br />- 👨‍💻
+    All of my projects are available at
+    <a href="www.github.com/nkg447">www.github.com/nkg447</a> <br />- 💬 Ask me
+    about
+    <strong>Java, Javascript or any other idea or tech discussion.</strong>
+    <br />- 📫 How to reach me <strong>nikunj.gupta447@gmail.com</strong>
+    <br />- ⚡ Fun fact <strong>Table Tennis pro 😎</strong>
+
+    <p align="left">
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg"
+        alt="css3"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/electron/electron-original.svg"
+        alt="electron"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+        alt="git"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg"
+        alt="html5"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg"
+        alt="java"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg"
+        alt="javascript"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg"
+        alt="linux"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg"
+        alt="nodejs"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg"
+        alt="postgresql"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg"
+        alt="react"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://reactnative.dev/img/header_logo.svg"
+        alt="reactnative"
+        width="40"
+        height="40"
+      />
+      <img
+        src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+        alt="spring"
+        width="40"
+        height="40"
+      />
+    </p>
+
+    <h3>My cool projects -</h3>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-title">
+          <a href="https://github.com/nkg447/smartphone-simulator"
+            >Smartphone Orientation Simulator</a
+          >
+        </div>
+        <div class="card-body">
+          Simulate your smartphone's orientation. Works with Android, might
+          require extra permissions on iOS.<br />
+          <svg
+            mr="2"
+            classes="flex-shrink-0"
+            height="16"
+            class="octicon octicon-link flex-shrink-0 mr-2"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"
+            ></path>
+          </svg>
+          <a href="https://smartphone-simulator.herokuapp.com/simulator/"
+            >https://smartphone-simulator.herokuapp.com/simulator/</a
+          >
+        </div>
       </div>
-      <!--    ABOUT-->
-      <div class="about" id="about">
-         <h2 style="text-align: center; font-family: Indie Flower;"><strong>ABOUT</strong></h2>
-         <div style="text-align: center;"><img class="dp" src="assets/dp.jpg"></div>
-         <div class="about-me">
-            <p>
-               I'am Nikunj Kumar Gupta, currently in my fourth year of Computer Science Engenearing at UPES.
-               I am a self - taught software developer who likes to code in JAVA.
-               I also like to take part in various programming contests, you can follow me on <a href="https://www.hackerrank.com/nikunj_gupta447">hackerrank</a>.
-                <br>
-                <img src="https://hrcdn.net/hackerrank/assets/badges/gold_small-77a21f2e8826aa897af7084ff5c87866.svg"/>1 <img src="https://hrcdn.net/hackerrank/assets/badges/silver_small-705bd9e2a40fe18772851167407e2e25.svg" />5 <img src="https://hrcdn.net/hackerrank/assets/badges/bronze_small-28a32d8bed2d6ebeb17528d9a758bcd1.svg" />3
-            </p>
-            <p id="second">
-               In my spare time I play Badminton and Table Tennis.
-            </p>
-         </div>
+      <div class="card">
+        <div class="card-title">
+          <a href="https://github.com/nkg447/chokdi">Chokdi</a>
+        </div>
+        <div class="card-body">
+          An Indian card game. Played between 4 players. Somewhat like Bridge
+          card game<br />
+          <svg
+            mr="2"
+            classes="flex-shrink-0"
+            height="16"
+            class="octicon octicon-link flex-shrink-0 mr-2"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"
+            ></path>
+          </svg>
+          <a href="https://chokdi.herokuapp.com/"
+            >https://chokdi.herokuapp.com/</a
+          >
+        </div>
       </div>
-      <!--    CONTACT-->
-      <div class="contact" id="contact">
-         <h2 style="text-align: center; font-family: Indie Flower;"><strong>CONTACT me</strong></h2>
-         <p style="text-align: center; font-size: 30px; font-family: Indie Flower;">You can contact me on any of the below links</p>
-         <div class="row">
-            <a class="col-md-3 col-sm-10 c-link" href="https://www.facebook.com/nikunj.gupta.3557"><i class="fab fa-facebook-square"></i></a>
-            <a class="col-md-3 col-sm-10 c-link" href="https://github.com/nkg447"><i class="fab fa-github-square"></i></a>
-            <a class="col-md-3 col-sm-10 c-link" href="https://stackoverflow.com/users/6807222/nikunj-gupta"><i class="fab fa-stack-overflow"></i></a>
-            <a class="col-md-3 col-sm-10 c-link" href="https://www.linkedin.com/in/nikunj-gupta-a49034129/"><i class="fab fa-linkedin"></i></a>
-         </div>
-         <p style="text-align: right; padding-top: 50px; padding-right: 50px; font-size: 30px; font-family: Indie Flower;">or just e-mail me at</p>
-         <p style="text-align: right; padding-right: 50px; font-size: 30px; font-family: Indie Flower;">nikunj.gupta447@gmail.com</p>
+      <div class="card">
+        <div class="card-title">
+          <a href="https://github.com/nkg447/rc-file-manager"
+            >Ridiculously Cool File Manager</a
+          >
+        </div>
+        <div class="card-body">
+          An electron based file manager.<br />Using ReactJs.
+        </div>
       </div>
-      <div class="footer">
-         <div class="footer-link">
-            <a class="footer-link" href="https://github.com/nkg447/nkg447.github.io">Github code</a>&#183;
-            <a class="footer-link" href="#">TOP</a>
-         </div>
+      <div class="card">
+        <div class="card-title">
+          <a href="https://github.com/nkg447/x-api">X-API</a>
+        </div>
+        <div class="card-body">
+          Allow client applications to use different vendors for different
+          services.
+        </div>
       </div>
-   </body>
+      <div class="card">
+        <div class="card-title">
+          <a href="https://github.com/nkg447/DFA-Minimizer">DFA-Minimizer</a>
+        </div>
+        <div class="card-body">
+          Java program to Minimize deterministic finite automata, Convert NFA to
+          DFA and graphically represent the results.
+        </div>
+      </div>
+    </div>
+    <p>
+      <img
+        align="left"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkg447&layout=compact&hide=html"
+        alt="nkg447"
+      />
+    </p>
+
+    <p>
+      &nbsp;<img
+        align="center"
+        src="https://github-readme-stats.vercel.app/api?username=nkg447&show_icons=true"
+        alt="nkg447"
+      />
+    </p>
+
+    <p align="center">
+      <a href="https://linkedin.com/in/nikunj-gupta-a49034129" target="blank"
+        ><img
+          align="center"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
+          alt="nikunj-gupta-a49034129"
+          height="30"
+          width="30"
+      /></a>
+      <a href="https://fb.com/nikunj.gupta.3557" target="blank"
+        ><img
+          align="center"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg"
+          alt="nikunj.gupta.3557"
+          height="30"
+          width="30"
+      /></a>
+    </p>
+  </body>
 </html>
