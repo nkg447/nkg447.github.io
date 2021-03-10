@@ -94,7 +94,7 @@ const Footer = styled.div`
   margin-left: 0.2em;
   border: 1px solid grey;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 `;
 
