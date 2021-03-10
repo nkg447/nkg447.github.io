@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 
 export default () => {
@@ -45,15 +45,22 @@ export default () => {
           <Logo src="./assets/logos/linux.svg" />
         </div>
       </LogoContainer>
+      <LogoContainer>
+        <img
+          align="left"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkg447&amp;layout=compact&amp;hide=html"
+          alt="nkg447"
+        />
+      </LogoContainer>
     </Container>
   );
 };
 
 const Container = styled.div`
-  width: 60%;
+  width: 40%;
   min-width: 18em;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 `;
 
 const LogoContainer = styled.div`
@@ -62,6 +69,7 @@ const LogoContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 1em;
+  background-color: white;
 `;
 
 const Text = styled.p`

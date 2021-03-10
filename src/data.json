@@ -44,6 +44,17 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "title": "projects",
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "My Projects",
+                    "type": "file",
+                    "children": []
+                  }
+                ]
               }
             ]
           }

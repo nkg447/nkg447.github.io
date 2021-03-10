@@ -8,7 +8,9 @@ export default (props) => {
 
 const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: 95vh;
+  padding-bottom: 5em;
   padding-left: 1em;
   background-color: #f2f3f7;
+  overflow-y: scroll;
 `;

@@ -16,7 +16,8 @@ export default App;
 
 const Container = styled.div`
   margin: 0.2em;
-  height: 100vh;
+  height: 99vh;
+  width: 99vw;
   overflow-y: hidden;
   border: 1px solid grey;
 `;
