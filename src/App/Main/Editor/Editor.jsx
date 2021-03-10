@@ -7,12 +7,14 @@ import MySkills from "../../../Pages/MySkills";
 import MyProjects from "../../../Pages/MyProjects";
 import Default from "../../../Pages/Default";
 import Content from "./Content/Content";
+import MyResume from "../../../Pages/MyResume";
 
 const fileToComponent = (file) => {
   if (file === "About Me") return <AboutMe />;
   if (file === "My Education") return <MyEducation />;
   if (file === "My Skills") return <MySkills />;
   if (file === "My Projects") return <MyProjects />;
+  if (file === "My Resume") return <MyResume />;
   return <Default />;
 };
 

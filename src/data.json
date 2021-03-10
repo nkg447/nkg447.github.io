@@ -55,6 +55,17 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "title": "resume",
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "My Resume",
+                    "type": "file",
+                    "children": []
+                  }
+                ]
               }
             ]
           }

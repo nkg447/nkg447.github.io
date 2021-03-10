@@ -3,40 +3,57 @@ import styled from "styled-components";
 
 export default () => {
   return (
-    <Container>
-      <ProjectCard
-        srcLink="https://github.com/nkg447/smartphone-simulator"
-        title="Smartphone Orientation Simulator"
-        description="Simulate your smartphone's orientation. Works with Android, might require extra permissions on iOS."
-        website="https://smartphone-simulator.herokuapp.com/simulator/"
-      />
-      <ProjectCard
-        srcLink="https://github.com/nkg447/chokdi"
-        title="Chokdi"
-        description="An Indian card game. Played between 4 players. Somewhat like Bridge card game."
-        website="https://chokdi.herokuapp.com/"
-      />
-      <ProjectCard
-        srcLink="https://github.com/nkg447/rc-file-manager"
-        title="Ridiculously Cool File Manager"
-        description="An electron based file manager. Using ReactJs."
-      />
-      <ProjectCard
-        srcLink="https://github.com/nkg447/x-api"
-        title="X-API"
-        description="Allow client applications to use different vendors for different services."
-      />
-      <ProjectCard
-        srcLink="https://github.com/nkg447/DFA-Minimizer"
-        title="DFA-Minimizer"
-        description="Java program to Minimize deterministic finite automata, Convert NFA to DFA and graphically represent the results."
-      />
-      <img
-        style={{ margin: "1em" }}
-        src="https://github-readme-stats.vercel.app/api?username=nkg447&amp;show_icons=true"
-        alt="nkg447"
-      />
-    </Container>
+    <>
+      <span style={{ fontSize: "1.4em" }}>
+        Here are some of my <strong>pet projects</strong>. (
+        <strong>Professional projects</strong> are mentioned in my resume)
+      </span>
+      <Container>
+        <ProjectCard
+          srcLink="https://github.com/nkg447/smartphone-simulator"
+          title="Smartphone Orientation Simulator"
+          description="Simulate your smartphone's orientation. Works with Android, might require extra permissions on iOS."
+          website="https://smartphone-simulator.herokuapp.com/simulator/"
+          img="https://raw.githubusercontent.com/nkg447/smartphone-simulator/master/screenshot/simulator.gif"
+        />
+        <ProjectCard
+          srcLink="https://github.com/nkg447/chokdi"
+          title="Chokdi"
+          description="An Indian card game. Played between 4 players. Somewhat like Bridge card game."
+          website="https://chokdi.herokuapp.com/"
+          img="https://raw.githubusercontent.com/nkg447/chokdi/master/screenshot/chokdi-screenshot1.jpg"
+        />
+        <ProjectCard
+          srcLink="https://github.com/nkg447/rc-file-manager"
+          title="Ridiculously Cool File Manager"
+          description="An electron based file manager. Using ReactJs."
+          img="https://raw.githubusercontent.com/nkg447/rc-file-manager/develop/screenshots/s2.png"
+        />
+        <ProjectCard
+          srcLink="https://github.com/nkg447/x-api"
+          title="X-API"
+          description="Allow client applications to use different vendors for different services."
+          img="https://raw.githubusercontent.com/nkg447/x-api/master/Client-server-model.png"
+        />
+        <ProjectCard
+          srcLink="https://github.com/nkg447/DFA-Minimizer"
+          title="DFA-Minimizer"
+          description="Java program to Minimize deterministic finite automata, Convert NFA to DFA and graphically represent the results."
+          img="https://raw.githubusercontent.com/nkg447/DFA-Minimizer/master/screenshots/dfa-min.png"
+        />
+        <ProjectCard
+          srcLink="https://github.com/nkg447"
+          title="And Many more...."
+          website="https://github.com/nkg447"
+          description="Please visit my github page to see some more of my cool projects."
+        />
+        <img
+          style={{ margin: "1em" }}
+          src="https://github-readme-stats.vercel.app/api?username=nkg447&amp;show_icons=true"
+          alt="nkg447"
+        />
+      </Container>
+    </>
   );
 };
 
@@ -55,7 +72,7 @@ const DP = styled.img`
 `;
 
 const ProjectCard = (props) => {
-  const { srcLink, title, description, website } = props;
+  const { srcLink, title, description, website, img } = props;
   return (
     <Card>
       <CardTitle>
@@ -67,6 +84,7 @@ const ProjectCard = (props) => {
         {description}
         <br />
         <br />
+        {img && <ProjectImage src={img} />}
         {website && (
           <Container>
             <svg
@@ -113,4 +131,8 @@ const CardTitle = styled.div`
   color: #2f80ed;
   font-weight: bold;
   cursor: pointer;
+`;
+
+const ProjectImage = styled.img`
+  width: 100%;
 `;
