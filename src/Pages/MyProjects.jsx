@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { isDesktop } from "../common/helper";
 
 export default () => {
   return (
@@ -47,28 +48,28 @@ export default () => {
           website="https://github.com/nkg447"
           description="Please visit my github page to see some more of my cool projects."
         />
-        <img
-          style={{ margin: "1em" }}
-          src="https://github-readme-stats.vercel.app/api?username=nkg447&amp;show_icons=true"
-          alt="nkg447"
-        />
+        {isDesktop() && (
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=nkg447&amp;show_icons=true"
+            alt="nkg447"
+          />
+        )}
       </Container>
     </>
   );
 };
 
+// const Container = styled.div`
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: center;
+//   flex-wrap: wrap;
+// `;
 const Container = styled.div`
+  width: ${isDesktop() ? "auto" : "60%"};
+  min-width: 18em;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-wrap: wrap;
-`;
-
-const DP = styled.img`
-  width: 6em;
-  height: 6em;
-  border-radius: 100%;
-  margin-right: 16px;
 `;
 
 const ProjectCard = (props) => {
@@ -117,9 +118,10 @@ const ProjectCard = (props) => {
 const Card = styled.div`
   padding: 1em;
   margin: 1em;
+  margin-left: 0em;
   display: flex !important;
-  width: 30%;
-  min-width: 495px;
+  width: ${isDesktop() ? "30%" : "100%"};
+  min-width: ${isDesktop() ? "495px" : "100%"};
   background-color: #fff;
   border: 1px solid #e1e4e8;
   border-radius: 6px;

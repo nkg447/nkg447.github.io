@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import TopBar from "./TopBar/TopBar.jsx";
 import Explorer from "./Explorer/Explorer";
 import styled from "styled-components";
+import { isDesktop } from "../../../common/helper";
 
 import { Folder } from "@material-ui/icons";
 
 export default (props) => {
   const { items, activeFileHandler } = props;
-  const [openExplorer, setOpenExplorer] = useState(window.innerWidth > 700);
+  const [openExplorer, setOpenExplorer] = useState(isDesktop());
   const activeFileHandlerMiddle = (data) => {
-    setOpenExplorer(window.innerWidth > 700);
+    setOpenExplorer(isDesktop());
     activeFileHandler(data);
   };
   return (
@@ -51,6 +52,7 @@ export default (props) => {
 const Container = styled.div`
   border: 2px solid grey;
   height: 100%;
+  float: left;
 `;
 
 const Sidebar = styled.div`
@@ -58,6 +60,7 @@ const Sidebar = styled.div`
   background-color: #e4e6eb;
   width: 1.5em;
   height: 100%;
+  float: left;
 `;
 
 const VerticalText = styled.div`

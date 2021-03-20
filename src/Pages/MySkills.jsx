@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { isDesktop } from "../common/helper";
 
 export default () => {
   return (
@@ -50,6 +51,7 @@ export default () => {
           align="left"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkg447&amp;layout=compact&amp;hide=html"
           alt="nkg447"
+          style={{ width: isDesktop() ? "auto" : "100%" }}
         />
       </LogoContainer>
     </Container>
@@ -70,6 +72,7 @@ const LogoContainer = styled.div`
   flex-direction: column;
   margin: 1em;
   background-color: white;
+  width: ${isDesktop() ? "initial" : "100%"};
 `;
 
 const Text = styled.p`

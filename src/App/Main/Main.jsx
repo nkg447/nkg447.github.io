@@ -17,12 +17,25 @@ const dataParser = (data, tabs = 0) => {
   }
   return result;
 };
+const getCurrentPath = () => {
+  return new URLSearchParams(window.location.search).get("path");
+};
+
+function changeQueryString(searchString) {
+  const documentTitle = document.title;
+  const urlSplit = window.location.href.split("?");
+  const obj = { Title: documentTitle, Url: urlSplit[0] + searchString };
+  window.history.pushState(obj, obj.Title, obj.Url);
+}
 
 export default () => {
-  const [activeFile, setActiveFile] = useState(undefined);
+  const [activeFile, setActiveFile] = useState(
+    getCurrentPath() ? { title: getCurrentPath() } : undefined
+  );
   const activeFileHandler = (file) => {
     console.log(file);
     setActiveFile(file);
+    changeQueryString(`?path=${file.title}`);
   };
   const items = dataParser(data);
   return (
