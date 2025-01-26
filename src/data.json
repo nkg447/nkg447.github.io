@@ -1,0 +1,76 @@
+[
+  {
+    "title": "nikunj-portfolio",
+    "type": "folder",
+    "style": { "fontWeight": "bold" },
+    "children": [
+      {
+        "title": "src",
+        "type": "src",
+        "children": [
+          {
+            "title": "dev.nikunjgupta",
+            "type": "folder",
+            "children": [
+              {
+                "title": "about",
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "About Me",
+                    "type": "file",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "education",
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "My Education",
+                    "type": "file",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "skills",
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "My Skills",
+                    "type": "file",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "projects",
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "My Projects",
+                    "type": "file",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "resume",
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "My Resume",
+                    "type": "file",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
