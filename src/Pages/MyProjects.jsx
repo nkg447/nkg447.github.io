@@ -14,14 +14,14 @@ export default () => {
           srcLink="https://github.com/nkg447/markdown-emoji"
           title="Markdown Emoji"
           description="Markdown Emoji is a JS library to make any text input or a textbox enable the markdown emoji."
-          website="https://nkg447.github.io/markdown-emoji/demo.html"
+          website="https://nikunjgupta.dev/markdown-emoji/demo.html"
           img="https://github.com/nkg447/markdown-emoji/raw/master/screenshot/screenshot_1.gif"
         />
         <ProjectCard
           srcLink="https://github.com/nkg447/smartphone-simulator"
           title="Smartphone Orientation Simulator"
           description="Simulate your smartphone's orientation. Works with Android, might require extra permissions on iOS."
-          website="https://smartphone-simulator.herokuapp.com/simulator/"
+          website="https://nikunjgupta.dev/smartphone-simulator"
           img="https://raw.githubusercontent.com/nkg447/smartphone-simulator/master/screenshot/simulator.gif"
         />
         <ProjectCard
