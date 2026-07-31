@@ -7,6 +7,7 @@ pdf_options:
     left: 18mm
     right: 18mm
 stylesheet: resume-inline.css
+dest: ./assets/Nikunj's Resume.pdf
 ---
 
 # Nikunj Kumar Gupta
