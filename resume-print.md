@@ -1,3 +1,14 @@
+---
+pdf_options:
+  format: A4
+  margin:
+    top: 15mm
+    bottom: 15mm
+    left: 18mm
+    right: 18mm
+stylesheet: resume-inline.css
+---
+
 # Nikunj Kumar Gupta
 
 **Senior Software Engineer | AI/MCP Orchestration | Full-Stack Development**
