@@ -2,10 +2,10 @@
 pdf_options:
   format: A4
   margin:
-    top: 15mm
-    bottom: 15mm
-    left: 18mm
-    right: 18mm
+    top: 12mm
+    bottom: 12mm
+    left: 15mm
+    right: 15mm
 stylesheet: resume-inline.css
 dest: ./assets/Nikunj's Resume.pdf
 ---
@@ -60,5 +60,5 @@ nikunj.gupta447@gmail.com | +91 8979740608 | Bangalore, India
 
 ## Education
 
-### B. Tech. in Computer Science & Engineering
-**University of Petroleum and Energy Studies** | Jul 2015 - May 2019 | Dehradun, India
+**B. Tech. in Computer Science**  
+University of Petroleum and Energy Studies | Jul 2015 - May 2019 | Dehradun, India
