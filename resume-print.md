@@ -16,12 +16,8 @@ dest: ./assets/Nikunj's Resume.pdf
 
 Senior engineer with 7+ years at Informatica/Salesforce, focused on making enterprise integrations intelligent. Built MCP orchestration layers, AI-driven workflow engines, and zero-downtime infrastructure serving production customers at scale.
 
-- nikunj.gupta447@gmail.com
-- +91 8979740608
-- Bangalore, India
-- [nikunjgupta.dev/](http://nikunjgupta.dev/)
-- [linkedin.com/in/nikunj-gupta-a49034129](https://linkedin.com/in/nikunj-gupta-a49034129)
-- [github.com/nkg447](https://github.com/nkg447)
+nikunj.gupta447@gmail.com | +91 8979740608 | Bangalore, India  
+[nikunjgupta.dev](http://nikunjgupta.dev) | [<i class="fab fa-linkedin"></i> nikunj-gupta-a49034129](https://linkedin.com/in/nikunj-gupta-a49034129) | [<i class="fab fa-github"></i> nkg447](https://github.com/nkg447)
 
 ## Skills
 
@@ -60,8 +56,6 @@ Senior engineer with 7+ years at Informatica/Salesforce, focused on making enter
 
 ### Software Engineer II
 **HashedIn Technologies** | Aug 2019 - May 2021 | Bengaluru, India
-
-- Built cross-platform mobile application using React Native, delivering feature parity across iOS and Android.
 - Developed Java backend services for Generali CSA-RSA (travel insurance platform), handling policy management and claims processing for 1,000+ active daily users.
 
 ## Education
