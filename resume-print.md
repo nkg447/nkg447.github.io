@@ -28,7 +28,7 @@ nikunj.gupta447@gmail.com | +91 8979740608 | Bangalore, India
 **APIs & Protocols:** REST, SOAP, GraphQL, WSDL, OpenAPI/Swagger, XPath/XQuery  
 
 ## Work Experience
-### Informatica by Salesforce (5+ years)
+### Informatica by Salesforce (May 2021 - Present)
 *Informatica acquired by Salesforce in 2026*
 
 **Software Engineer MTS** | Mar 2026 - Present | Bengaluru, India
@@ -54,8 +54,8 @@ nikunj.gupta447@gmail.com | +91 8979740608 | Bangalore, India
 - Contributed to a full UI modernization initiative, migrating legacy in-house JavaScript framework to React, improving maintainability and developer productivity.
 - Resolved high-priority production incidents through log analysis, debugging, and root cause analysis (RCA), delivering timely patch fixes and ensuring customer SLA compliance.
 
-### Software Engineer II
-**HashedIn Technologies** | Aug 2019 - May 2021 | Bengaluru, India
+### HashedIn Technologies
+**Software Engineer II** | Aug 2019 - May 2021 | Bengaluru, India
 - Developed Java backend services for Generali CSA-RSA (travel insurance platform), handling policy management and claims processing for 1,000+ active daily users.
 
 ## Education
