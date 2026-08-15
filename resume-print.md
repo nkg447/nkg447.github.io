@@ -21,10 +21,10 @@ nikunj.gupta447@gmail.com | +91 8979740608 | Bangalore, India
 
 ## Skills
 
-**Languages & Frameworks:** Java, JavaScript, TypeScript, React, React Native, Node.js, Apache Camel  
-**AI & Integration:** MCP Orchestration, AI Agents, RAG, LLM Integration, Enterprise Integration Patterns (EIP)  
+**Languages & Frameworks:** Java, JavaScript, React, Node.js  
+**AI & Integration:** MCP Orchestration, AI Agents, RAG, LLM Integration, Enterprise Integration Patterns (EIP)
 **Cloud & Infrastructure:** Docker, PostgreSQL, Kafka, Amazon S3, CI/CD  
-**Security & Auth:** OAuth 2.0, Mutual TLS (mTLS), IAM, SAML  
+**Security & Auth:** OAuth 2.0, Mutual TLS (mTLS), IAM
 **APIs & Protocols:** REST, SOAP, GraphQL, WSDL, OpenAPI/Swagger, XPath/XQuery  
 
 ## Work Experience
